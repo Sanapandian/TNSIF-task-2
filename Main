@@ -1,0 +1,18 @@
+package myproject;
+
+public class main1 extends Employeea{
+	
+	public main1(int Empid,String Empname) {
+		super(Empid,Empname);
+	}
+	
+	public static void main(String[]args) {
+		manager m1=new manager(201,"sana","ECE");
+		
+		m1.display();
+		
+		Technician t1=new Technician (202,"Asha","IT");
+		t1.display();
+	}
+
+}
